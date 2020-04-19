@@ -62,7 +62,7 @@ export default {
     }
   },
   computed: mapState({
-    events: state => state.events.event
+    event: state => state.events.event
   })
 }
 </script>
